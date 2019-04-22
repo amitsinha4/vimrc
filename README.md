@@ -14,3 +14,13 @@ You will have to copy the vimrc to your home folder, for ubuntu or macbook syste
 Now try to access vim and see if changes are reflected, to install plugin mentioned in the vimrc file enter following command.
 
     :PluginInstall
+
+List of Plugin Used in improve the productivity of VIM
+
+- [x] Airblade/vim-gitgutter
+- [x] scrooloose/nerdtree
+- [x] jistr/vim-nerdtree-tabs
+- [x] jistr/vim-nerdtree-tabs
+- [x] vim-airline/vimr-airline
+- [x] vim-airline/vimairline-themes
+- [x] davidhalter/jedi-vim
