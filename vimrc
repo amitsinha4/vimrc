@@ -60,3 +60,6 @@ map <silent> <C-n> :NERDTreeToggle<CR>
 
 " Indent level match
 imap <C-Return> <CR><CR><C-o>k<Tab>
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%80v.\+/                                 
