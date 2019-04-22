@@ -64,5 +64,10 @@ map <silent> <C-n> :NERDTreeToggle<CR>
 " Indent level match
 imap <C-Return> <CR><CR><C-o>k<Tab>
 
+
 " Setting backspace back to normal
 set backspace=indent,eol,start
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%80v.\+/                                 
+
