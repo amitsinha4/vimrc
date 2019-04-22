@@ -52,6 +52,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " Python Autocomplete
 Plugin 'davidhalter/jedi-vim'
 
+" PHP Auto completio
+Plugin 'shawncplus/phpcomplete.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -60,3 +63,6 @@ map <silent> <C-n> :NERDTreeToggle<CR>
 
 " Indent level match
 imap <C-Return> <CR><CR><C-o>k<Tab>
+
+" Setting backspace back to normal
+set backspace=indent,eol,start
