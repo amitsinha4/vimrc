@@ -1,6 +1,6 @@
 set nocompatible        " be iMproved, required
 
-filetype off            " required
+filetype off                " required
 
 "enable syntax highlighting
 syntax enable
