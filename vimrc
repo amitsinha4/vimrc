@@ -6,6 +6,8 @@ filetype off            " required
 syntax enable
 
 " show line number
+" This will show number in the editor
+" And this will be done now
 set number
 
 " highlight searched element
